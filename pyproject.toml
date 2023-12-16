@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "btgithooks"
+version = "0.1.0"
+description = "My Git Pre-commit Hooks"
+authors = ["Pradeep Gowda <pradeep@btbytes.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+check-untitled = "btgithooks.check_untitled:main"
