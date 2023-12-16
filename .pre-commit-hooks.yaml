@@ -1,0 +1,7 @@
+- id: check-untitled
+  name: check-untitled
+  description: check if i am committing an empty markdown file
+  entry: check-untitled
+  language: markdown
+  pass_filenames: false
+  files: ^(.*/)?Untitled\.md$
